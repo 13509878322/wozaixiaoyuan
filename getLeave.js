@@ -38,10 +38,10 @@ var user = {
     "location": "",//校区,销假地点,留空不变，注意格式[\"佛山三水校区\"]
     "tel": "",//紧急联系电话，留空不变
     "reason": "去西安家里，复查眼睛",//请假理由，留空不变
-    "userHead": "http://lorempixel.com/200/200/",//学生头像，默认随机，留空不变
+    "userHead": "https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKeFMSNq5vwNJjg3N5qH0TdvDvZAYG6RIAvDL19eKG3gcawSXZEVIkmIvWYEmXQiaz09wso5VoLdNg/132",//学生头像，默认随机，留空不变
 
     //下面这部分似乎不会在页面上显示
-    "date": "",//请假提交时间，，留空不变
+    "date": "2022-04-02 12:00",//请假提交时间，，留空不变
     "school": "",//学校，留空不变
     "college": "",//学院，留空不变
     "grade": "",//班级，留空不变
