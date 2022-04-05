@@ -33,12 +33,12 @@ var user = {
     "out": 1,//是否离校 1是 0否
     "studentName": "",//姓名，留空不变
     "studentId": "",//学生id，留空不变
-    "type": "事假",//请假类型 事假 病假 实习 科研 出差 回家，留空不变
-    "route": "西安市莲湖区",//外出地点，留空不变
+    "type": "回家",//请假类型 事假 病假 实习 科研 出差 回家，留空不变
+    "route": "西安市临潼区",//外出地点，留空不变
     "location": "",//校区,销假地点,留空不变，注意格式[\"佛山三水校区\"]
     "tel": "15309607212",//紧急联系电话，留空不变
-    "reason": "去西安，复查",//请假理由，留空不变
-    "userHead": "https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKeFMSNq5vwNJjg3N5qH0TdvDvZAYG6RIAvDL19eKG3gcawSXZEVIkmIvWYEmXQiaz09wso5VoLdNg/132",//学生头像，默认随机，留空不变
+    "reason": "清明节放假探亲",//请假理由，留空不变
+    "userHead": "",//学生头像，默认随机，留空不变
 
     //下面这部分似乎不会在页面上显示
     "date": "2022-04-02 12:00",//请假提交时间，，留空不变
@@ -62,7 +62,7 @@ var user = {
             "name": "",//老师姓名，留空不变
             "reason": "",//审批理由，留空不变
             "position": "",//老师学院，留空不变
-            "head": "https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83eoSQjfu3dob8A5LicTiaMNibm9WOflY4iaBJYDozpLd4lHBCcGjV1Uzf4PoAJQFMECJiaRwj2j82ibsrIDA/132"//老师头像，默认随机，留空不变
+            "head": ""//老师头像，默认随机，留空不变
         }
     ]
 };
