@@ -120,7 +120,7 @@ function main() {
 			url.body = lx.r(data);
 			url.body = url.body.replace(/seq=\d/, "seq=" + seq)		//seq=1,2,3
 		} else {
-			url.body = 'answers=' + answers + '&seq=' + seq +  '&userId=' + userId + '&latitude=' + latitude + '&longitude=' + longitude + '&country=' + country + '&city=' + city + '&district=' + district + '&province=' + province + '&township=' + township + '&street=' + street + '&myArea=' + myArea + '&areacode=' + areacode;
+			url.body = 'answers=' + answers + '&latitude=' + latitude + '&longitude=' + longitude + '&country=' + country + '&city=' + city + '&district=' + district + '&province=' + province + '&township=' + township + '&street=' + street + '&myArea=' + myArea + '&areacode=' + areacode;
 			url.body = encodeURI(url.body);
 		};
 		//发包
