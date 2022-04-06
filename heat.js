@@ -37,7 +37,8 @@ var user_UA = ""			//模拟UA，如果存在则会被持久化储存。
 
 //以下数据自行修改,(打卡成功后会被持久化储存)。留空不会重置
 
-const answers = '["0","1","1","1","0","1"陕西省西安市临潼区西安工程大学]';		//选择题选项
+const answers = %5B%220%22%2C%221%22%2C%221%22%2C%221%22%2C%220%22%2C%22%E6%B2%B3%E5%8D%97%E7%9C%81%E4%B8%89%E9%97%A8%E5%B3%A1%E5%B8%82%E6%B9%96%E6%BB%A8%E5%8C%BA%22%5D&latitude=34.36474365234375&longitude=109.18372260199652&country=%E4%B8%AD%E5%9B%BD&city=%E8%A5%BF%E5%AE%89%E5%B8%82&district=%E4%B8%B4%E6%BD%BC%E5%8C%BA&province=%E9%99%95%E8%A5%BF%E7%9C%81&township=%E6%96%9C%E5%8F%A3%E8%A1%97%E9%81%93&street=%E8%A5%BF%E7%8E%AF%E8%B7%AF&areacode=610115
+//'["0","1","1","1","0","1"陕西省西安市临潼区西安工程大学]';		//选择题选项
 const temperature = '36.666';	//体温（摄氏）
 const latitude = '34.3656325000';		//纬度
 const longitude = '109.1864633600';	//经度
@@ -120,7 +121,8 @@ function main() {
 			url.body = lx.r(data);
 			url.body = url.body.replace(/seq=\d/, "seq=" + seq)		//seq=1,2,3
 		} else {
-			url.body = 'answers=' + answers + '&seq=' + seq +  '&userId=' + userId + '&latitude=' + latitude + '&longitude=' + longitude + '&country=' + country + '&city=' + city + '&district=' + district + '&province=' + province + '&township=' + township + '&street=' + street + '&myArea=' + myArea + '&areacode=' + areacode;
+			url.body = 'answers=' + answers ;
+//+ '&seq=' + seq +  '&userId=' + userId + '&latitude=' + latitude + '&longitude=' + longitude + '&country=' + country + '&city=' + city + '&district=' + district + '&province=' + province + '&township=' + township + '&street=' + street + '&myArea=' + myArea + '&areacode=' + areacode;
 			url.body = encodeURI(url.body);
 		};
 		//发包
