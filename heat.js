@@ -37,16 +37,16 @@ var user_UA = ""			//模拟UA，如果存在则会被持久化储存。
 
 //以下数据自行修改,(打卡成功后会被持久化储存)。留空不会重置
 
-const answers = '["0"]';		//选择题选项
-const temperature = '36.666';	//体温（摄氏）
-const latitude = '23.666';		//纬度
-const longitude = '112.666';	//经度
+const answers = '["0","1","1","1","0","1"陕西省西安市临潼区西安工程大学]';		//选择题选项
+//const temperature = '36.666';	//体温（摄氏）
+const latitude = '34.3656325000';		//纬度
+const longitude = '109.1864633600';	//经度
 const country = '中国';			//国家
-const city = '佛山市';			//城市
-const district = '三水区';		//区
-const province = '广东省';		//省
-const township = '云东海街道';	//镇、街道
-const street = '学海中路';		//街、路
+const city = '西安市';			//城市
+const district = '临潼区';		//区
+const province = '陕西省';		//省
+//const township = '云东海街道';	//镇、街道
+const street = '中环路';		//街、路
 
 //以下数据自行修改，一般可为空
 const userId = '';
