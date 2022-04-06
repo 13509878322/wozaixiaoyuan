@@ -38,7 +38,7 @@ var user_UA = ""			//模拟UA，如果存在则会被持久化储存。
 //以下数据自行修改,(打卡成功后会被持久化储存)。留空不会重置
 
 const answers = '["0","1","1","1","0","1"陕西省西安市临潼区西安工程大学]';		//选择题选项
-//const temperature = '36.666';	//体温（摄氏）
+const temperature = '36.666';	//体温（摄氏）
 const latitude = '34.3656325000';		//纬度
 const longitude = '109.1864633600';	//经度
 const country = '中国';			//国家
