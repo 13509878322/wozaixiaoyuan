@@ -95,14 +95,15 @@ function main() {
 		lx.log("存储User-Agent" + user_UA)
 	};
 	let url = {
-		url: "https://student.wozaixiaoyuan.com/heat/save.json",
+		url: "https://student.wozaixiaoyuan.com/health/save.json",
 		headers: {
 			"Accept-Encoding": "gzip,compress,br,deflate",
 			"content-type": "application/x-www-form-urlencoded",
 			"Connection": "keep-alive",
-			"Referer": "https://servicewechat.com/wxce6d08f781975d91/181/page-frame.html",
+			"Referer": "https://servicewechat.com/wxce6d08f781975d91/183/page-frame.html",
 			"Host": "student.wozaixiaoyuan.com",
 			"User-Agent": lx.r(UA),
+			"Content-Length": "29",
 			"JWSESSION": lx.r(token)
 		}
 	};
