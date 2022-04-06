@@ -45,7 +45,7 @@ const country = '中国';			//国家
 const city = '西安市';			//城市
 const district = '临潼区';		//区
 const province = '陕西省';		//省
-const township = '';	//镇、街道
+const township = '斜口街道';	//镇、街道
 const street = '中环路';		//街、路
 
 //以下数据自行修改，一般可为空
