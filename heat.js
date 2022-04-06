@@ -100,7 +100,7 @@ function main() {
 			"Accept-Encoding": "gzip,compress,br,deflate",
 			"content-type": "application/x-www-form-urlencoded",
 			"Connection": "keep-alive",
-			"Referer": "https://servicewechat.com/wxce6d08f781975d91/183/page-frame.html",
+			"Referer": "https://servicewechat.com/wxce6d08f781975d91/184/page-frame.html",
 			"Host": "student.wozaixiaoyuan.com",
 			"User-Agent": lx.r(UA),
 			"Content-Length": "29",
